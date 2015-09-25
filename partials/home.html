@@ -1,0 +1,110 @@
+     <!-- header -->
+     <div id="overview" class="jumbotron section-wrapper">
+      <div class="container">
+      	<div class="home-message">
+      		 <h2>We Create Notable</h2>
+	         <h1>Design and Applications</h1>
+           <ul class = "call-to-actions">
+             <li><a class="mybtn blue" href="#email" du-smooth-scroll du-scrollspy>Free rate quote <i class="fa fa-envelope"></i></a></li>
+             <li><a class="mybtn blue-line" href="#weServeGlobal" du-smooth-scroll du-scrollspy>Know more about us &raquo;</a></li>
+           </ul>
+           
+      	</div>
+      </div>
+    </div>
+
+   <div class="container">
+   		<div class="col-md-12">
+   			<div class="what-we-do">
+   				<h4>WHAT WE DO</h4>
+   				<p>We help businesses to connect much better with their customer. We engage in a collaborative round of research and discovery before we begin any design or technical commission. As well as gathering all of the information relevant to the project, we specifically define the project’s goals and its route to success.</p>
+   			</div>
+   		</div>
+   </div>
+
+   <div id = "services" class="services">
+      <div class="container">
+        <div class="row gutter">
+          
+        <div class="col-sm-6 col-lg-3">
+        <div id="up" class = "up">
+        <h6>Web Design and Development</h6> 
+        <span class = "read-more"><a href="#"><i class="fa fa-book"></i>&nbsp;&nbsp;read more</a></span>
+          <div class="arrow_box1"></div>
+        </div>
+      
+        <div id="down">
+        <p>We create beautiful web design and UI interfaces for your cool websites</p>
+     
+        </div>
+        </div>
+
+        <div class="col-sm-6  col-lg-3" id = "wrapper">
+        <div id="down">
+         <p>2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum earum quas ratione et deleniti cumque deserunt quod aut facilis velit! Animi quis perferendis sint totam ratione quibusdam. Pariatur sequi, a.</p>      
+        </div>
+        <div class="arrow_box"></div>
+        <div id="up" class = "up">
+        <h6>Ecommerce</h6> 
+        <span class = "read-more"><a href="#"><i class="fa fa-book"></i>&nbsp;&nbsp;read more</a></span>
+        </div>
+        </div>
+
+        <div class="col-sm-6  col-lg-3">
+        <div id="up" class = "up">
+        <h6>Graphic Design</h6> 
+        <span class = "read-more"><a href="#"><i class="fa fa-book"></i>&nbsp;&nbsp;read more</a></span>
+        <div class="arrow_box1"></div>
+        </div>
+
+        
+        <div id="down">
+        <p>3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum earum quas ratione et deleniti cumque deserunt quod aut facilis velit! Animi quis perferendis sint totam ratione quibusdam. Pariatur sequi, a.</p>     
+        </div>
+        </div>
+
+        <div class="col-sm-6  col-lg-3" id = "wrapper">
+        <div id="down">
+        <p>4Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum earum quas ratione et deleniti cumque deserunt quod aut facilis velit! Animi quis perferendis sint totam ratione quibusdam. Pariatur sequi, a.</p>      
+        </div>
+        <div class="arrow_box"></div>
+        <div id="up" class = "up">
+        <h6>Web Marketing</h6> 
+            <span class = "read-more"><a href="#"><i class="fa fa-book"></i>&nbsp;&nbsp;read more</a></span>
+        </div>
+        </div>
+
+      </div>
+    </div>
+   </div>
+
+   <div id = "weServeGlobal" class="global-services">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+              <h3>We Serve Global</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti, aliquid esse! Facilis dignissimos nobis qui, atque nostrum debitis, ad autem vel perferendis repudiandae, optio, ex. Quis provident quasi asperiores.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti, aliquid esse! Facilis dignissimos nobis qui, atque nostrum debitis, ad autem vel perferendis repudiandae, optio, ex. Quis provident quasi asperiores.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti, aliquid esse! Facilis dignissimos nobis qui, atque nostrum debitis, ad autem vel perferendis repudiandae, optio, ex. Quis provident quasi asperiores.</p>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <div id = "email" class="email">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+           <form ng-submit="submitForm()" ng-controller="FormController" novalidate>
+            <input type="text" name="name" placeholder = "Name" ng-model="formData.name" ng-class="{'error' : errorName}">
+            <input type="email" name="email" placeholder = "Email Address" ng-model="formData.email" ng-class="{'error' : errorEmail}">
+            <textarea name="message" placeholder = "Message" ng-class="{'error' : errorTextarea}" ng-model="formData.message" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send" name="submit" class = "mybtn">
+            <div ng-class="{'submissionMessage':submission}" ng-bind="submissionMessage"></div>
+          </form>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
