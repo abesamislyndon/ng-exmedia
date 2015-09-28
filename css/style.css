@@ -231,6 +231,23 @@ header {
   background: #f5f5f5;
   padding: 50px; }
 
+.box, .web, .ecommerce, .graphic, .marketing {
+  background-size: cover !important;
+  -webkit-filter: contrast(1);
+  filter: contrast(1); }
+
+.web {
+  background: url(../img/web.jpg) !important; }
+
+.ecommerce {
+  background: url(../img/ecommerce.jpg) !important; }
+
+.graphic {
+  background: url(../img/graphic.jpg) !important; }
+
+.marketing {
+  background: url(../img/table-3.jpg) !important; }
+
 /* ==========================================================================
     global services section
 ========================================================================== */
@@ -262,7 +279,8 @@ header {
   font-family: Open Sans Bold;
   color: #fff;
   letter-spacing: 0.1em;
-  text-align: center; }
+  text-align: center;
+  font-size: 12px !important; }
 
 /* ==========================================================================
     extra styles 
@@ -285,8 +303,20 @@ span.read-more {
 
 #down p {
   padding: 26px;
-  background: #e3e3e3;
-  height: 250px; }
+  height: 250px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Open Sans Light;
+  letter-spacing: 0.04em; }
+
+/* ==========================================================================
+    overlay
+========================================================================== */
+.overlay1 {
+  visibility: none; }
 
 /* ==========================================================================
     arrow tooltip style
@@ -309,7 +339,8 @@ span.read-more {
 
 .arrow_box1 {
   position: relative;
-  background: #88b7d5; }
+  background: #88b7d5;
+  z-index: 900 !important; }
 
 .arrow_box1:after {
   top: 100%;
@@ -493,5 +524,7 @@ input[type="submit"]:hover {
   src: url("../fonts/OpenSans-Bold.eot?") format("eot"), url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold.svg#OpenSans-Bold") format("svg");
   font-weight: normal;
   font-style: normal; }
+.overlay {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
